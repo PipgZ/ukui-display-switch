@@ -1,0 +1,26 @@
+Source: ukui-display-switch
+Section: x11
+Priority: optional
+Maintainer: Kylin Team <team+kylin@tracker.debian.org>
+Uploaders: zhuyunpeng <zhuyunpeng@kylinos.cn>
+Build-Depends: debhelper-compat (=12),
+               pkg-config,
+               qtbase5-dev,
+               libqt5x11extras5-dev,
+               libqt5svg5-dev,
+               libx11-dev,
+               libxtst-dev,
+               libxrandr-dev,
+               qttools5-dev-tools
+
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+
+Package: ukui-display-switch
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Suggests: screen-device-manager
+Provides: screen-device-manager
+Description: Screen-Manger for UKUI
+ Screen-Manager for UKUI desktop environment written by Qt5.

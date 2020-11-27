@@ -24,6 +24,10 @@ CONFIG += c++11 debug link_pkgconfig
 
 PKGCONFIG += xrandr x11 xtst
 
+target.path = /usr/sbin/
+
+INSTALLS += target
+
 RESOURCES += \
     image.qrc
 

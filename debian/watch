@@ -1,0 +1,2 @@
+version=1
+https://github.com/ukui/ukui-display-switch/releases .*/ukui-display-switch(\d\S+)\.orig\.tar\.gz
